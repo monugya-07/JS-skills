@@ -44,3 +44,39 @@ console.log(typeof heros)
 console.log(typeof myObj)
 
 
+
+
+
+// ----------------------------------- Memory -----------------------------------
+
+// Stack(Primitive) and Heap(Non-Primitive) 
+
+// let myOtherName = "Babamunu"
+
+// let anotherName = myOtherName
+
+// console.log(anotherName)
+
+
+let myOtherName = "Babamunu"
+
+let anotherName = myOtherName
+anotherName = "Itachi"
+
+console.log(myOtherName)
+console.log(anotherName)
+
+
+let userOne = {
+    email: "user@gmail.com",
+    upi : "user@ybl"
+}
+
+
+let userTwo = userOne
+
+userTwo.email = "monugya@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
+
