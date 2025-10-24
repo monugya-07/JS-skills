@@ -16,6 +16,13 @@ console.log(id === anotherId)     // false because return value isn't same
 
 const bigNumber = 123456789987654321n  // represent n at the end to make it bigint
 
+
+
+// Reference type ( Non primitive)
+
+// Array, Objects, Functions, 
+
+
 const heros = ["spiderman", "batman", "superman", "ironman"]
 
 let myObj = {
@@ -36,13 +43,4 @@ console.log(typeof anotherId)
 console.log(typeof heros)
 console.log(typeof myObj)
 
-
-
-
-
-
-
-// Reference type ( Non primitive)
-
-// Array, Objects, Functions, 
 
