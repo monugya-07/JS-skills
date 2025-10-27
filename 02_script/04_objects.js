@@ -75,3 +75,42 @@ console.log(Object.entries(instaUser))  // [ [ 'id', '___obito___' ], [ 'name', 
 console.log(instaUser.hasOwnProperty("isLoggedIn"))  // true
 console.log(instaUser.hasOwnProperty("isLogged"))    // false
 
+
+
+// De-structuring 
+
+const course = {
+    courseName : "JavaScript",
+    price : "999",
+    instructor : "John Doe"
+}
+
+// course.instructor
+
+// const {instructor} = course
+
+// console.log(instructor)
+
+
+const {instructor : n} = course    // Assigning instructor as 'n', can be assigned like this if the name is big 
+
+console.log(n)
+
+
+// Concept of API
+
+// {
+//     "name" : "monugya",      
+//     "courseName" : "js",     // API calls come like this, It's JSON file, an object without name, here keys are also string 
+//     "price" : "free" 
+// } 
+
+
+// Sometimes APIs come in array format also where there are objects exist 
+
+[
+    {},
+    {},
+    {}
+]
+
