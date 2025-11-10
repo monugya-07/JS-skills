@@ -10,7 +10,7 @@ console.log(myArr[1])
 console.log(myArr2[1])
 
 
-// Indise console : 
+// Inside console : 
 
 // const numbers = [ 1,2,3,4 ]
 // undefined
